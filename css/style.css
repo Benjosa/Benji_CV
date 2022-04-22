@@ -1,0 +1,86 @@
+/*
+nomBalise (
+    propriété: valeur;
+    propriété2: valeur;
+    )
+*/
+
+h1{ 
+    color: red;
+}
+
+div {
+    background-color: #AA45FF;
+}
+/* quand on utilise un id pour un div */
+
+#header {
+    front-size: 50px;
+}
+
+/* quand on utilise une classe pour un div */
+
+.similaire{
+front-weight: bold;
+}
+
+/* pour les articles comprit dans une section ou autre */
+
+section > article {
+    text-decoration: underline;
+}
+
+/* pour modifier plusieur balise différente (on peut aussi utiliser des identifiant avec #...) 
+    pour attribuer des proprietes a un portion de texte on utilise la balise <span id = "....."></span>  */
+
+h1, h3, h6 {
+    color: blueviolet;
+}
+
+/* Pour les listes à puces / float = deplacer / display = modifier la configuration vertical-horizontale /
+    padding = marge interieur / margin = marge exterieur
+*/
+/*
+ul > li {
+    list-style-type: none ;
+    display: inline-block;
+    float: right;
+    border: 1px darkturquoise;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+}
+ul {
+    background-color: rgb(red, green, blue);
+}
+*/
+/* ajouter une bordure à tout les paragraphe wigth = largeur d'un paragraphe */
+p {
+    border: 1px solid green;
+    width: 50%;
+    height: 5%;
+}
+
+/* Pour les articles cote à cote on utilise les balises filles des balises parentes */
+
+section{
+    display: flex;
+    flex-direction: column;
+} 
+
+.col
+{
+    background-color: white;
+}
+.nav-link :active{
+    position: absolute;
+   margin-bottom: 10cm;
+}
+header{
+    background-image: url("../img/cv.jpeg");
+}
+ 
+ul{
+    list-style-type: square;
+}
+

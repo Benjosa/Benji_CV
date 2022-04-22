@@ -1,0 +1,38 @@
+#entete {
+    background-color: yellow;
+}
+img{
+    vertical-align: bottom;
+}
+h1 {
+    display: inline;
+    vertical-align: bottom;
+}
+
+h2{
+    background-color: green;
+}
+
+h4{
+    background-color: blueviolet;
+}
+
+#first {
+    color: red;
+}
+#second {
+    color: green;
+}
+
+table {
+    background-color: red;
+    width: 100%;
+}
+td {
+    background-color: green;
+    color: white;
+}
+.centre{
+    text-align: center;
+}
+
